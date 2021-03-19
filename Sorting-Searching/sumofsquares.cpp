@@ -16,3 +16,22 @@ public:
     
     
 };
+
+
+//optimised:
+class Solution {
+public:
+    bool judgeSquareSum(int c) {
+       int low = 0, high = sqrt(c);
+        while(low<=high){
+            if(low*1ll*low + high*1ll*high > c) high--;
+            else if(low*1ll*low + high*1ll*high ==c) return true;
+            else low++;
+        }
+        return false;
+       
+    }
+    
+    
+    
+};
