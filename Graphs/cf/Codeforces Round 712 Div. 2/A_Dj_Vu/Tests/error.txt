@@ -1,0 +1,6 @@
+Command failed: g++ -o "/Users/rajathv/Desktop/cf/Codeforces Round 712 Div. 2/A_Dj_Vu/Tests/a.out" "/Users/rajathv/Desktop/cf/Codeforces Round 712 Div. 2/A_Dj_Vu/A_Dj_Vu.cpp" -std=c++14
+In file included from /Users/rajathv/Desktop/cf/Codeforces Round 712 Div. 2/A_Dj_Vu/A_Dj_Vu.cpp:5:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/bits/stdc++.h:57:10: fatal error: 'cstdalign' file not found
+#include <cstdalign>
+         ^~~~~~~~~~~
+1 error generated.
