@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -25,7 +24,6 @@ public:
         return root;
             
     }
-=======
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -52,5 +50,4 @@ public:
         return root;
             
     }
->>>>>>> 673ed86091449e4adc8c32e9546b1b85b39181ad
 };

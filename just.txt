@@ -1,0 +1,4 @@
+minimum window substring:
+what we do is, first add all characters of t in a map.
+then for every character in s, we add it into a map, and if the counts of every character in s_map==t_map ,while that is true, we remove elements from the left(two pointer technique), and then keep changind the result as neded.
+base case = s.lenght() < t.length() no min window substr possibleear
